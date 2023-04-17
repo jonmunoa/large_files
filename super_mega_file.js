@@ -7,12 +7,6 @@ ctx.lineTo(xMax, f(xMax));
 ctx.strokeStyle = "black";
 ctx.stroke();
 
-// Plot Scatter
-ctx.moveTo(0, intercept);
-ctx.lineTo(xMax, f(xMax));
-ctx.strokeStyle = "black";
-ctx.stroke();
-
 // Line Function
 function f(x) {
   return x * slope + intercept;
