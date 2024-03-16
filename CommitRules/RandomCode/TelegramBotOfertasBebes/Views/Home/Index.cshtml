@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Telegram Bot";
+}
+
+<div class="text-center">
+    <div class="container">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <form method="post" asp-action="TodasOfertas" class="btn-group-sm">
+                        <input type="submit" value="Crear todas las ofertas" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["OfertasCreadas"]</p>
+
+                    <form method="post" asp-action="TodasOfertas2" class="btn-group-sm">
+                        <input type="submit" value="Crear todas las ofertas 2" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["OfertasCreadas2"]</p>
+
+                    <form method="post" asp-action="Panales" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta pañales" class="btn btn-warning" />
+                    </form>
+                    <p>@ViewData["OfertaPanalesCreada"]</p>
+
+                    <form method="post" asp-action="GeneralBebe" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para bebe en general" class="btn btn-warning" />
+                    </form>
+                    <p>@ViewData["OfertaJuguetesCreada"]</p>
+                    <form method="post" asp-action="RopaBebe" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta ropa de bebe" class="btn btn-warning" />
+                    </form>
+                    <p>@ViewData["OfertaRopaBebeCreada"]</p>
+
+                    <form method="post" asp-action="OfertasGatos" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para gatos" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaGatosCreada"]</p>
+
+                    <form method="post" asp-action="OfertasPerros" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para perros" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaPerrosCreada"]</p>
+
+                    <form method="post" asp-action="OfertasDeporte" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para deporte" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaDeporteCreada"]</p>
+
+                    <form method="post" asp-action="OfertasCocina" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para cocina" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaCocinaCreada"]</p>
+
+                    <form method="post" asp-action="OfertasRopaModa" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para ropa de moda" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertasRopaModaCreada"]</p>
+
+                    <form method="post" asp-action="OfertasBellezaCosmetica" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para belleza y cosmetica" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaBellezaCosmeticaCreada"]</p>
+
+                    <form method="post" asp-action="OfertasColonias" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para colonias" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaColoniasCreada"]</p>
+
+                    <form method="post" asp-action="OfertasRelojes" class="btn-group-sm">
+                        <input type="submit" value="Crear oferta para relojes" class="btn btn-secondary" />
+                    </form>
+                    <p>@ViewData["OfertaRelojCreada"]</p>
+
+                    <form method="post" asp-action="ListaNacimientoBebe" class="btn-group-sm">
+                        <input type="submit" value="ListaNacimientoBebe" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["ListaNacimientoBebeCreada"]</p>
+
+                    <form method="post" asp-action="PruebaPrimeroPagaDespues" class="btn-group-sm">
+                        <input type="submit" value="PruebaPrimeroPagaDespues" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["PruebaPrimeroPagaDespuesCreada"]</p>
+
+                    <form method="post" asp-action="OfertasChollosInvierno" class="btn-group-sm">
+                        <input type="submit" value="OfertasChollosInvierno" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["PruebaPrimeroPagaDespuesCreada"]</p>
+
+                    <form method="post" asp-action="OfertasDeTodo" class="btn-group-sm">
+                        <input type="submit" value="OfertasDeTodo" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["OfertasDeTodo"]</p>
+
+                    <form method="post" asp-action="PromocionAmazonPrimeGratis" class="btn-group-sm">
+                        <input type="submit" value="PromocionAmazonPrimeGratis" class="btn btn-success" />
+                    </form>
+                    <p>@ViewData["OfertaAmazonPrimeGratisCreada"]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
